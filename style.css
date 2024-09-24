@@ -1,0 +1,460 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    flex-wrap: wrap;
+    min-width: 1024px;
+    border: solid red;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    border-bottom: solid 2px white
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 40px;
+}
+
+.twitter ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.welcome-page{
+   color: white;
+    text-align: center;
+    background-image: url(Assets/Repeat\ Grid\ 1.png);
+}
+
+.welcome-page h3{
+    width: 90%;
+     padding:50px 0px 0px 0px;
+
+}
+
+
+.welcome-page  img{
+    width: 40%;
+}
+.welcome-page p{
+    width: 100%;
+    font-size: 35px;
+    margin: 10px 0px;
+}
+span{
+    color:hsl(180,47%,63%);
+}
+.getstart-btn{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius:5px ;
+    width: 15%;
+    border: 0px;
+}
+.download-btn{
+    background-color:white;
+    color:#22AA46;
+    padding: 15px;
+    margin: 20px;
+    border-radius:5px ;
+    width: 15%;
+   border: solid 2px #22AA46; 
+}
+
+.physical-tutorial{
+    display: flex;
+    background-image:url(Assets/Group\ 2803.png)
+}
+
+.physical p{
+    width: 49%;
+}
+.physical{
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+  align-items: center; 
+}
+
+.physical h1{
+    margin: 20px 0px;
+    color: #277D69;
+}
+.physical p{
+    line-height: 20px;
+}
+.tutorial-btn{
+    background-color:#0E97D9;
+    color:white;
+    padding: 15px;
+    margin: 20px;
+    border-radius:5px ;
+    width: 30%;
+    border: 0px;
+   margin-right: 160px;
+}
+
+.infinite-collecting-universe{
+    background-image: url(Assets/Group\ 2804.png);
+    display: flex;
+}
+
+.infinite{
+    width: 50%;
+}
+
+.infinite-img{
+    width:80%;
+    padding:20px 20px 20px 50px ;
+}
+
+.universe{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.universe h1{
+    color: #0E97D9;
+}
+.universe p{
+    width: 70%;
+    line-height: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.visit-market-btn{
+    background-color: #0E97D9;
+    color:white;
+    padding: 15px;
+    margin: 20px;
+    border-radius:5px ;
+    width: 30%;
+    border: 0px; 
+    margin: 20px 20px 20px 0px;
+}
+
+.collect-and-play-together{
+    background-image: url(Assets/Group\ 2805.png);
+    background-size: 100% 100%;
+    margin: 15px;
+}
+.collect{
+    width: 40%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.collect h1{
+    padding: 100px 0px 20px; 
+}
+.collect p{
+    width: 73%;
+    padding: 10 0px 150px 0px;
+    margin-bottom: 60px;
+}
+
+.multi-year-roadmap{
+    padding: 20px;
+    margin: 20px;
+    background-image: url(Assets/Group\ 2806.png);
+    
+}
+.roadmap-items{
+    padding: 30px;
+}
+
+.roadmap-img{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.roadmap-img h2{
+    width:80%;
+    color: white;
+    font-size: 15px;
+}
+
+.multi-year{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.multi-year p{
+    width: 35%;
+    color: white;
+    line-height: 20px;
+    margin: 10px;
+} 
+.multi-year h1{
+    color: #0E97D9;
+}
+.collecting-universe{
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.collecting-universe h1{
+    margin: 20px;
+
+    
+}
+
+.universe-btn{
+    background-color: #22AA46; 
+    color:white;
+    padding: 15px;
+    
+    border-radius:5px ;
+    width: 20%;
+    border: 0px; 
+    margin: 10px 20px 60px 0px;
+}
+
+.footer-container{
+    background-image: url(Assets/Group\ 2807.png);
+}
+
+.status{
+    display: flex;
+    color: white;
+    justify-content: space-around
+  
+}
+
+.status h1{
+font-size: 15px;
+margin-top: 20px;
+padding-left: 10px;
+}
+
+.sign-up{
+margin-left:250px ;
+}
+
+.account ul{
+    list-style: none;
+    margin: 10px;
+    line-height: 20px;
+}
+.information ul{
+    list-style: none;
+    margin: 10px;
+    line-height: 20px;
+}
+
+
+.social-media{
+    margin: 20px 80px;
+}
+
+.social-media h1{
+    color: white;
+    font-size: 20px;
+}
+
+.social-media i{
+    color: white;
+    margin: 10px;
+}
+
+.sign-up h2{
+    padding-left: 10px;
+    font-size: 15px;
+    width: 100%;
+    margin: 10px  0px 15px 0px;
+}
+
+.sign-up input{
+    width:50% ;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 3px;
+    border: 0px;
+}
+.sign-up-btn{
+    width: 30%;
+    padding:8px ;
+    background-color: #22AA46;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+}
+
+.connect-us{
+    display: flex;
+    justify-content: space-between;
+}
+.connect-us p{
+    margin: 50px 50px 0px ;
+    color: white;
+}
+
+
+
+@media screen and (max-width:450px){
+
+body{
+    flex-wrap: wrap;
+    min-width:450px
+}
+
+
+.nav1{
+    
+    display: none;
+}
+.twitter{
+display: none;
+}
+
+
+.getstart-btn{
+    width: 150px;
+}
+
+.download-btn{
+    width: 150px;
+}
+
+
+.physical-tutorial {
+    flex-direction: column-reverse;
+}
+
+.physical p {
+    width: 80%;
+}
+
+.spawn-trash-throne-set{
+    width: 100%;
+}
+
+.spawn-trash-throne-set img {
+    width: 80%;
+
+}
+
+.tutorial-btn{
+    margin-right: 250px;
+
+}
+
+.infinite-collecting-universe{
+    flex-direction: column;
+}
+
+.infinite{
+    width: 100%;
+}
+.universe {
+    width: 100%;
+    text-align: center;
+    
+}
+.universe  p{
+    width: 90%;
+    margin: auto;
+}
+
+.collect {
+    width: 100%;
+    padding: 0px;
+}
+.collect h1{
+    padding: 0%;
+}
+
+.multi-year p {
+    width: 100%;
+    margin: 0PX;
+}
+
+.roadmap-img{
+    padding: 0px;
+    flex-wrap: wrap;
+
+}
+.roadmap-img h2{
+    font-size: 10px;
+    width: 100%;
+}
+
+.roadmap-items{
+    padding: 0px;
+}
+.roadmap-logos{
+    width: 100px;
+    margin: 10px;
+}
+
+.universe-btn{
+    width:150px;
+}
+.status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.status h1{
+    font-size: 19px;
+}
+.sign-up{
+    margin: 0px;
+}
+.sign-up input {
+    width: 90%;
+    padding: 15px;
+    border: 0px;
+}
+.sign-up-btn{
+    width: 95%;
+    padding: 15px;
+    margin: 10px;   
+}
+.connect-us{
+    flex-direction: column;
+}
+.social-media {
+    margin: 0px;
+    text-align: center;
+}
+.connect-us p{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+
+.visit-market-btn{
+    width: 200px;
+    margin: 20px 20px 20px 20px;
+}
+
+}
